@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Dominoes - The Timeless Tile Game</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #1a2a1a 0%, #0d1f0d 50%, #1a2a1a 100%);
+            color: #e8dcc8;
+            min-height: 100vh;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1.5rem;
+            background: rgba(0,0,0,0.3);
+            border-bottom: 1px solid rgba(196,168,86,0.2);
+        }
+        nav a {
+            color: #c4a856;
+            text-decoration: none;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        nav a:hover { color: #e8dcc8; }
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem 3rem;
+        }
+        .hero .label {
+            font-size: 0.8rem;
+            letter-spacing: 8px;
+            color: #a08830;
+            margin-bottom: 0.5rem;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            background: linear-gradient(to bottom, #f0e6d2, #c4a856);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 4px;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #6b7e6e;
+            max-width: 500px;
+            margin: 0 auto 2rem;
+            line-height: 1.6;
+        }
+        .badge {
+            display: inline-block;
+        }
+        .badge img {
+            height: 50px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .feature {
+            background: rgba(0,0,0,0.3);
+            border: 1px solid rgba(196,168,86,0.15);
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+        }
+        .feature h3 {
+            color: #c4a856;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        .feature p {
+            color: #6b7e6e;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #6b7e6e;
+            font-size: 0.8rem;
+            border-top: 1px solid rgba(196,168,86,0.1);
+            margin-top: 2rem;
+        }
+        footer a { color: #c4a856; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+    </nav>
+
+    <div class="hero">
+        <div class="label">CLASSIC</div>
+        <h1>DOMINOES</h1>
+        <p>The timeless tile game, beautifully crafted for iOS. Play against a smart AI opponent, track your stats, and customize your table with elegant themes.</p>
+        <a class="badge" href="https://apps.apple.com/app/id000000000">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+        </a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>Smart AI Opponent</h3>
+            <p>Challenge a computer player that draws, plays strategically, and keeps the game exciting every round.</p>
+        </div>
+        <div class="feature">
+            <h3>Beautiful Themes</h3>
+            <p>Customize your table and tiles with multiple premium themes for a personalized experience.</p>
+        </div>
+        <div class="feature">
+            <h3>Smooth Animations</h3>
+            <p>Spring-powered tile animations, pop-in effects, and polished transitions bring the board to life.</p>
+        </div>
+        <div class="feature">
+            <h3>Track Your Stats</h3>
+            <p>Monitor your wins, losses, and scores across games to see how you improve over time.</p>
+        </div>
+        <div class="feature">
+            <h3>Classic Rules</h3>
+            <p>Standard match-end dominoes with doubles going sideways and chains snaking across the table.</p>
+        </div>
+        <div class="feature">
+            <h3>Ad-Free Option</h3>
+            <p>Enjoy an uninterrupted experience by upgrading to Premium for a one-time purchase.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Dumitru Bumbu. All rights reserved.</p>
+        <p style="margin-top: 0.5rem;">
+            <a href="support.html">Support</a> &middot; <a href="privacy.html">Privacy Policy</a>
+        </p>
+    </footer>
+</body>
+</html>
